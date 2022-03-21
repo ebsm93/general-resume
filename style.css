@@ -1,0 +1,136 @@
+
+
+html, body {
+    height: 100%;
+    /* color: antiquewhite; */
+    /* text-shadow: 1px 2px 2px rgb(0, 0, 0); */
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+body {
+    /* height: 100%; */
+    /* padding: 0; */
+    margin: 0px;
+    background-image: url("./images/kiwihug-3gifzboyZk0-unsplash.jpg") ;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.page-wrap {
+    height: fit-content;          /*fix later */
+    background-color: black;
+    animation: bg-transition 2s ease-out forwards;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    /* justify-content: center; */
+    /* text-align: center; */
+}
+@keyframes bg-transition {
+    from {
+        /* background-color: rgb(250, 235, 215); */
+        background-color: black;
+    }
+    to {
+        /* background-color: rgb(250, 235, 215,0); */
+        background-color: rgb(255, 255, 255,0);
+    }   
+}
+
+.content-wrap {
+    /* width: 100%; */
+    grid-column: 2;
+    width: 100%;
+    /* align-self: center; */
+    /* justify-items: center; */
+    /* text-align: center; */
+    display: grid;
+    grid-template-rows: .1fr .1fr .1fr .1fr .1fr .1fr .1fr;
+    grid-template-columns: 1fr 8fr 1fr;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    
+}
+
+ul {
+    grid-column: 2;
+
+    /* justify-items: center; */
+    /* justify-content: center; */
+    display: grid;
+
+
+    /* justify-self: center; */
+
+    /* align-self: center; */
+
+    list-style-type:circle;
+    /* align-items: center; */
+    /* text-align: center; */
+}
+/* 
+li {
+    display: grid;
+    align-items: center;
+    align-self: center;
+    text-align: start;
+
+} li span {
+    position: relative;
+    left: -10px;
+  }  */
+h1, h2 {
+    
+    text-decoration: underline;
+}
+section, header {
+    grid-column: 2;
+    /* border-top: 1px solid black; */
+}
+.border-wrap {
+    width: 120%;
+    /* display: grid; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-items: center; */
+    border-bottom: 1px solid black;
+    /* padding-left: 40px; */
+    /* grid-template-rows: 1fr; */
+    /* text-align: center; */
+    
+    
+    /* flex-direction: column; */
+}
+
+h1 {
+    text-align: center;
+}
+
+.education {
+
+}
+
+.starter-info {
+    /* text-align: start; */
+    /* display: flex; */
+
+}
+
+
+footer {
+    grid-row: -1;
+    grid-column: 2;
+}
+
+.work-exp ul {
+    display: grid;
+    gap: 5vh
+}
+
+.entry {
+    
+}
