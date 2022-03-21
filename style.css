@@ -125,14 +125,44 @@ h1 {
     text-align: center;
 }
 
+
+.alias {
+    text-align: center;
+    font-size: 1.3em;
+}
+
 .education {
 
 }
 
 .starter-info {
-    /* text-align: start; */
+    text-align: center;
     /* display: flex; */
+}
 
+.starter-info-grid {
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr; */
+}
+
+@media  (min-width: 500px){
+    
+    /* .page-wrap {
+        grid-template-columns: 1fr 4fr 1fr;
+        
+    } */
+
+    .starter-info-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    }
+
+}
+
+.starter-info-grid>div {
+    grid-column: 2;
 }
 
 
