@@ -142,7 +142,7 @@ h1 {
 
 .starter-info-grid {
     display: grid;
-    gap: 1vh;
+    gap: 2vh;
     /* grid-template-columns: 1fr 1fr 1fr; */
     /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr; */
 }
