@@ -129,9 +129,11 @@ section, header {
 
 h1 {
     text-align: center;
+    margin: 0;
 }
 
 .alias {
+    margin-top: 10px;
     text-align: center;
     font-size: 1.3em;
 }
