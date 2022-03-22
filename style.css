@@ -89,7 +89,7 @@ h2, .small-bullets {
     }
 }
 
-header {
+.header {
     margin-top: 3vh;
     /* padding-top: 0; */
     /* text-align: start; */
@@ -117,7 +117,7 @@ h1, h2 {
     text-decoration: underline;
 }
 
-section, header {
+section, .header {
     grid-column: 2;
 }
 
@@ -186,7 +186,7 @@ h2, h3 {
 
 @media  (min-width: 500px){
 
-    header {
+    .header {
         font-size: 1em;
     }
     
