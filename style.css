@@ -47,9 +47,10 @@ body {
     max-width: 90%;
     padding-right: 1vw;
     padding-left: 1vw;
+    /* padding-bottom: 3vh; */
     /* display: grid; */
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: column; */
     /* grid-template-rows: .1fr .1fr .1fr .1fr .1fr .1fr .1fr; */
 }
 
@@ -92,11 +93,12 @@ h2, .small-bullets {
     }
 }
 
-.header {
+.title {
     margin-top: 3vh;
     /* padding-top: 0; */
     /* text-align: start; */
 
+    height: fit-content;
 
     position: sticky;
     position: -webkit-sticky;
