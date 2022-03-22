@@ -44,6 +44,46 @@ body {
     grid-template-rows: .1fr .1fr .1fr .1fr .1fr .1fr .1fr;
 }
 
+h1, h3 {
+    animation: slidein-rightside .9s forwards ease;
+}
+
+h2, .small-bullets {
+    animation: slidein-leftside .9s forwards ease;
+}
+
+.starter-info {
+    animation: slidein-topside .9s forwards ease;
+}
+
+@keyframes slidein-rightside {
+    from {
+        transform: translateX(100%);      
+    }
+    to {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes slidein-leftside {
+    from {
+        transform: translateX(-100%);      
+    }
+    to {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes slidein-topside {
+    from {
+        transform: translateY(-100%);      
+    }
+    to {
+        transform: translateY(0%);
+    }
+}
+
+
 ul {
     grid-column: 2;
     display: grid;
