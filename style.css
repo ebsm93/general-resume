@@ -28,7 +28,9 @@ body {
     background-color: black;
     animation: bg-transition 2s ease-out forwards;
     /* display: grid; */
-    grid-template-columns: 1fr, 4fr, 1fr;
+    display: flex;
+    align-items: center;
+    /* grid-template-columns: 1fr, 4fr, 1fr; */
     justify-content: center;
     /* text-align: center; */
 }
@@ -57,6 +59,7 @@ body {
 
 .content-wrap {
     /* width: 100%; */
+    max-width: 80%;
     padding-right: 1vw;
     padding-left: 1vw;
     /* grid-column: 2; */
@@ -180,7 +183,7 @@ h1 {
     } */
 
     .content-wrap {
-        padding-right: 0;
+        /* padding-right: 0; */
     }
 
     .starter-info-grid {
