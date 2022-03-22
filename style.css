@@ -173,11 +173,13 @@ footer {
     grid-column: 2;
 }
 
-.work-exp ul {
+/* .work-exp ul {
     display: grid;
     gap: 5vh
-}
+} */
+
+
 
 .entry {
-    
+    margin-bottom: 4vh;    
 }
