@@ -130,6 +130,7 @@ section, header {
 h1 {
     text-align: center;
     margin: 0;
+    border: 1px solid black;
 }
 
 .alias {
