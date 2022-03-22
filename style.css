@@ -51,7 +51,7 @@ body {
     grid-template-rows: .1fr .1fr .1fr .1fr .1fr .1fr .1fr;
 }
 
-h3 {
+.title, h3 {
     animation: slidein-rightside .9s forwards ease;
 }
 
@@ -196,9 +196,9 @@ h2, h3 {
         font-size: 18px;
     }
 
-    .title {
+    /* .title {
         animation: slidein-rightside .9s forwards ease;
-    }
+    } */
 
     .alias {
         margin-top: 10px;
