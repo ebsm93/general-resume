@@ -94,11 +94,15 @@ h2, .small-bullets {
     margin-top: 3vh;
     /* padding-top: 0; */
     /* text-align: start; */
-    position: sticky;
-    /* position: -webkit-sticky; */
+
+
+    /* position: sticky;
+    position: -webkit-sticky;
     top: 0;
     display: grid;
-    z-index: 1;
+    z-index: 1; */
+
+
     /* background-color: rgb(210, 180, 140, .3); */
     font-size: 0.8em;
 
