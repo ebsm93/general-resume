@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Playfair+Display+SC&display=swap');
 
-
-
 html {
+
 }
 
 html, body {
@@ -94,6 +93,14 @@ h2, .small-bullets {
 }
 
 .title {
+
+    background-image: url("./images/kiwihug-3gifzboyZk0-unsplash.jpg") ;
+    background-size:cover;
+    text-align: center;
+    margin: 0px;
+    padding: 1vh;
+    border: 1px solid black;
+    font-size: 1.5em;
     margin-top: 3vh;
     /* padding-top: 0; */
     /* text-align: start; */
@@ -132,16 +139,6 @@ section, .header {
     /* display: flex;
     flex-direction: column;    */
     border-bottom: 1px solid black;
-}
-
-.title {
-    background-image: url("./images/kiwihug-3gifzboyZk0-unsplash.jpg") ;
-    background-size:cover;
-    text-align: center;
-    margin: 0px;
-    padding: 1vh;
-    border: 1px solid black;
-    font-size: 1.5em;
 }
 
 .alias {
