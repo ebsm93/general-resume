@@ -95,7 +95,7 @@ h2, .small-bullets {
     /* padding-top: 0; */
     /* text-align: start; */
     position: sticky;
-    position: -webkit-sticky;
+    /* position: -webkit-sticky; */
     top: 0;
     display: grid;
     z-index: 1;
