@@ -12,7 +12,7 @@ html, body {
 }
 
 body {
-    font-size: 18px;
+    font-size: 16px;
     background-image: url("./images/kiwihug-3gifzboyZk0-unsplash.jpg") ;
     background-size:cover;
     background-position: center;
@@ -104,10 +104,8 @@ h2, .small-bullets {
 
 
     /* background-color: rgb(210, 180, 140, .3); */
-    font-size: 0.8em;
+    /* font-size: 0.8em; */
 
-    background-image: url("./images/kiwihug-3gifzboyZk0-unsplash.jpg") ;
-    background-size:cover;
     /* background-position: center; */
 }
 
@@ -133,6 +131,8 @@ section, .header {
 }
 
 .title {
+    background-image: url("./images/kiwihug-3gifzboyZk0-unsplash.jpg") ;
+    background-size:cover;
     text-align: center;
     margin: 0px;
     padding: 1vh;
@@ -191,6 +191,14 @@ h2, h3 {
 }
 
 @media  (min-width: 500px){
+
+    body {
+        font-size: 18px;
+    }
+
+    .title {
+        animation: slidein-rightside .9s forwards ease;
+    }
 
     .alias {
         margin-top: 10px;
