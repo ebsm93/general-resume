@@ -89,6 +89,9 @@ h2, .small-bullets {
 }
 
 header {
+    margin-top: 5vh;
+    /* padding-top: 0; */
+    /* text-align: start; */
     position: sticky;
     position: -webkit-sticky;
     top: 0;
