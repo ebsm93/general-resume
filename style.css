@@ -130,6 +130,7 @@ section, header {
 h1 {
     text-align: center;
     margin: 0;
+    padding: 1vh;
     border: 1px solid black;
 }
 
