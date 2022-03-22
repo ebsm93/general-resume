@@ -2,10 +2,10 @@
 
 
 html {
-    overflow-x: hidden;
 }
 
 html, body {
+    overflow-x: hidden;
     margin: 0px;
 }
 
@@ -89,15 +89,15 @@ h2, .small-bullets {
 }
 
 header {
-    margin-top: 5vh;
+    margin-top: 3vh;
     /* padding-top: 0; */
     /* text-align: start; */
-    position: sticky;
+    /* position: sticky;
     position: -webkit-sticky;
     top: 0;
     display: grid;
-    z-index: 1;
-    background-color: rgb(210, 180, 140, .3);
+    z-index: 1; */
+    /* background-color: rgb(210, 180, 140, .3); */
     font-size: 0.8em;
 }
 
