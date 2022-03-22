@@ -83,6 +83,16 @@ h2, .small-bullets {
     }
 }
 
+header {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    display: grid;
+    z-index: 1;
+    background-color: rgb(210, 180, 140, .3);
+    font-size: 0.8em;
+}
+
 
 ul {
     grid-column: 2;
@@ -158,6 +168,10 @@ h2, h3 {
 }
 
 @media  (min-width: 500px){
+
+    header {
+        font-size: 1em;
+    }
     
     .content-wrap {
         max-width: 80%;
