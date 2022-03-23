@@ -27,7 +27,7 @@ body {
 .page-wrap {
     height: fit-content;
     background-color: black;
-    animation: bg-transition 2s ease-out forwards;
+    animation: bg-transition 1s ease-out forwards;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -93,34 +93,22 @@ h2, .small-bullets {
 }
 
 .title {
+    margin-top: 3vh;
+    padding: 1vh;
+    text-align: center;
+    font-size: 1.5em;
 
     background-image: url("./images/kiwihug-3gifzboyZk0-unsplash.jpg") ;
     background-size:cover;
-    text-align: center;
-    margin: 0px;
-    padding: 1vh;
-    border: 1px solid black;
-    font-size: 1.5em;
-    margin-top: 3vh;
-    /* padding-top: 0; */
-    /* text-align: start; */
-
-    height: fit-content;
-
+    
     position: sticky;
     position: -webkit-sticky;
     top: 0;
-    display: grid;
     z-index: 1;
-
+    
+    border: 1px solid black;
     box-shadow: 2px 2px 3px #000;
     border-radius: 5px;
-
-
-    /* background-color: rgb(210, 180, 140, .3); */
-    /* font-size: 0.8em; */
-
-    /* background-position: center; */
 }
 
 
