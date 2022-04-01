@@ -31,6 +31,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 1px antiquewhite solid;
 }
 
 @keyframes bg-transition {
@@ -181,6 +182,8 @@ h2, h3 {
 .large-bullets {
     list-style: disc;
 }
+
+
 
 @media  (min-width: 500px){
 
